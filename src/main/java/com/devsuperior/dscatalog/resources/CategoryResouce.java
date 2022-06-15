@@ -13,6 +13,7 @@ import com.devsuperior.dscatalog.entities.Category;
 @RestController
 @RequestMapping(value = "/categories")
 public class CategoryResouce {
+	// Yes!
 	
 	@GetMapping
 	public ResponseEntity<List<Category>> findAll(){
